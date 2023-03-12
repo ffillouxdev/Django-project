@@ -1,0 +1,17 @@
+<html>
+    <head><title>Listings</title></head>
+    <body>
+        {% extends 'listings/base.html' %}
+        {% block content %}
+
+        <h1>Listings</h1>
+        <p>Voici les objects :</p>
+        <ul>
+            {% for listing in listings %}
+            <li>{{ listing.name }}</li>
+            {% endfor %}
+        </ul>
+        <p>J'ai {{ listings|length }} objets.</p>
+        {% endblock %} 
+    </body>
+</html>

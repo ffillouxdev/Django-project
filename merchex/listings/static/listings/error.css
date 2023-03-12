@@ -1,0 +1,20 @@
+h1.error{
+    padding: 10%;
+    font-size: 5rem;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.info-error{
+    display: flex;
+    font-size: 1.5rem;
+    text-align: center;
+    padding-left: 7%;
+    height: 100%;
+    width: 90%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+img{
+    width: 100%;
+    height: 100%;
+}

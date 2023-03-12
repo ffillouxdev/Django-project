@@ -1,0 +1,18 @@
+<html>
+    <head><title>Contact</title></head>
+    <body>
+
+        {% extends 'listings/base.html' %}
+        {% block content %}
+        
+        <h1>Contact</h1>
+        <p>Voici les contacts :</p>
+        <ul>
+            {% for contact in contacts %}
+            <li>{{ contact.name }}</li>
+            {% endfor %}
+        </ul>
+        <p>J'ai {{ contacts|length }} contacts.</p>
+        {% endblock %}
+    </body>
+</html>
